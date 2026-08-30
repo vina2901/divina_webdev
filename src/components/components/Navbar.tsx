@@ -13,8 +13,8 @@ export default function Navbar() {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 border-b border-[#e5ddd3] bg-[#fdf8f2]/90 backdrop-blur-sm">
-      <div className="mx-auto flex h-14 w-full max-w-6xl items-center justify-between px-4 sm:px-6 lg:px-8">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-[#fdf8f2]/90 backdrop-blur-sm border-b border-[#e5ddd3]">
+      <div className="max-w-5xl mx-auto px-5 sm:px-10 h-14 flex items-center justify-between">
         <span
           className="text-[13px] cursor-pointer tracking-widest uppercase text-[#1e6b6b] font-medium"
           onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
