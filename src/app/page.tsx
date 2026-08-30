@@ -1,6 +1,6 @@
 import Mynav from "../components/Navbar";
 import Hero from "../components/Hero";
-import { getPortfolioData } from "@/lib/actions/portfolio";
+import { getPortfolioData } from "../../lib/actions/portfolio";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import About from "../components/About";

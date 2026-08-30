@@ -1,4 +1,4 @@
-import { prisma } from "@/lib/prisma";
+import { prisma } from "../../lib/prisma";
 
 export const getPortfolioData = async (email?: string | null) => {
     const normalizedEmail = email?.trim();
