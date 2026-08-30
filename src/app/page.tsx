@@ -1,24 +1,3 @@
-<<<<<<< HEAD
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
-import About from "./components/About";
-import Contact from "./components/Contact";
-
-export default function Home() {
-  return (
-    <div className="min-h-screen bg-[#fdf8f2] text-[#1c1812]">
-      <Navbar />
-      <Hero />
-      <Projects />
-      <Skills />
-      <About />
-      <Contact />
-    </div>
-  );
-}
-
 import Mynav from "../components/Navbar";
 import Hero from "../components/Hero";
 import { getPortfolioData } from "@/lib/actions/portfolio";
@@ -37,9 +16,9 @@ export default async function Page() {
       <Hero user={portfolio} />
       <Skills skills={portfolio?.skills || []} />
       <Projects projects={portfolio?.projects || []} />
-      <About user={portfolio} abouts={portfolio?.abouts || []} />
-      <Contact contacts={portfolio?.contacts || []} />
+      <About />
+      <Contact />
     </div>
   );
 }
->>>>>>> development
+
